@@ -1,0 +1,44 @@
+<main class="main flex flex-col mt-12 items-center gap-8">
+  <img src="/Logo.svg" class="w-33.5 h-8 " />
+  <div class="p-8 border border-gray-300 rounded-lg">
+    <div class="flex flex-col gap-1 items-center">
+      <h1 class="text-gray-800 text-[1.25rem] font-bold">
+        Fazer login
+      </h1>
+      <h2 class="text-gray-600 text-[1rem] font-normal">
+        Entre na sua conta para continuar
+      </h2>
+    </div>
+
+    <form class="flex flex-col gap-6" action="">
+      <div class="flex flex-col gap-4">
+        <app-input Placeholder="mail@exemplo.com" Label="E-mail" Image="/mail.svg" />
+        <app-input Placeholder="Digite sua senha" Label="Senha" IsPassword="true" Image="/lock.svg" />
+        <div>
+          <div class="flex justify-between">
+            <div class="flex gap-0.5 justify-center items-center">
+              <input type="checkbox" id="scales" name="relember" checked class="rounded-2xl" />
+              <label class="text-grayscale-700 font-normal text-sm" for="relember">Lembrar-me</label>
+            </div>
+            <a class="text-brand-base no-underline	 font-normal text-sm" href="/">
+              Recuperar senha
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <app-primary-button Label="Entrar" Size="sm" />
+
+      <div class="flex justify-around items-center">
+        <div class="w-[40%] h-px bg-gray-300"></div>
+        <h2 class="font-normal text-sm text-grayscale-500">ou</h2>
+        <div class="w-[40%] h-px bg-gray-300"></div>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <h2 class="text-center text-gray-600 font-normal text-sm">Ainda não tem uma conta?</h2>
+        <app-secondary-button Label="Criar Conta" Size="sm" />
+      </div>
+    </form>
+  </div>
+</main> 

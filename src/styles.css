@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+
+@theme { 
+
+    /* Colors Theme */
+    --color-brand-dark: #124B2B;
+    --color-brand-base: #1F6F43;
+
+    --color-grayscale-800: #374151;
+    --color-grayscale-700: #374151;
+    --color-grayscale-600: #4B5563;
+    --color-grayscale-500: #6B7280;
+    --color-grayscale-400: #9CA3AF;
+    --color-grayscale-300: #D1D5DB;
+    --color-grayscale-200: #E5E7EB;
+    --color-grayscale-100: #F8F9FA;
+    
+    --color-neutral-black: #000000;
+    --color-neutral-white: #ffffff;
+    --color-neutral-danger: #EF4444;
+    --color-neutral-success: #19AD70;
+
+    --color-blue-dark: #1D4ED8;
+    --color-blue-base: #2563EB;
+    --color-blue-light: #DBEAFE;
+    --color-purple-dark: #7E22CE;
+    --color-purple-base: #9333EA;
+    --color-purple-light: #F3E8FF;
+    --color-pink-dark: #BE185D;
+    --color-pink-base: #DB2777;
+    --color-pink-light: #FCE7F3;
+    --color-red-dark: #B91C1C;
+    --color-red-base: #DC2626;
+    --color-red-light: #FEE2E2;
+    --color-orange-dark: #C2410C;
+    --color-orange-base: #EA580C;
+    --color-orange-light: #FFEDD5;
+    --color-yellow-dark: #A16207;
+    --color-yellow-base: #CA8A04;
+    --color-yellow-light: #F7F3CA;   
+    --color-green-dark: #15803D;
+    --green-base: #16A34A;
+    --green-light: #E0FAE9;
+}

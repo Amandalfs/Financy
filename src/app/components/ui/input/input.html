@@ -1,0 +1,19 @@
+<div class="flex flex-col w-115 justify-between gap-2">
+    <h1 class="text-gray-700 text-sm font-medium">
+        {{Label}}
+    </h1>
+    <div class="flex relative w-115 h-12 group">
+        <Input placeholder={{Placeholder}} 
+            class="
+                w-115 h-12 bg-neutral-white border border-grayscale-300 rounded-lg
+                pl-12
+            "
+           type={{typeInput}}
+        />
+        <img class="absolute left-4 top-3" src={{Image}} alt="mail">
+        @if (IsPassword === "true") {
+            <img (click)="handlePassowrd()" class="absolute right-4 top-3" src={{iconPassword}} alt="">
+        }
+    </div>
+    <!-- <h2 class="text-gray-500 text-sm font-medium">Helper</h2> -->
+</div>

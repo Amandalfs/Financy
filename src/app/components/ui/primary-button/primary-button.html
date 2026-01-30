@@ -1,0 +1,23 @@
+<button     
+    [ngClass]="{
+        'p-3': Size === 'md',
+        'p-2': Size === 'sm'
+    }"
+    class="
+        w-full
+        bg-brand-base
+        hover:bg-brand-dark
+        disabled:opacity-50
+        rounded-lg
+        font-inter
+        font-medium
+        text-neutral-white
+        text-base
+    "
+    >
+    
+    @if (Image) {
+        <img src=[Image]/>
+    }
+    {{Label}}
+</button>

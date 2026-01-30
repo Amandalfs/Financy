@@ -1,0 +1,24 @@
+<div 
+    [ngClass]="
+        {
+            'text-blue-dark bg-blue-light': Color === 'Blue',
+            'text-gray-700 bg-gray-200': Color === 'Gray',
+            'text-purple-dark bg-purple-light': Color === 'Purple',
+            'text-pink-dark bg-pink-light': Color === 'Pink',
+            'text-red-dark bg-red-light': Color === 'Red',
+            'text-orange-dark bg-orange-light': Color === 'Orange',
+            'text-yellow-dark bg-yellow-light': Color === 'Yellow',
+            'text-green-dark bg-green-light': Color === 'Green',
+
+        }
+    "
+    class="
+        inline-flex
+        px-3 py-1 
+        rounded-full
+        text-[14px]
+        font-medium
+    "
+>
+    {{Text}}
+</div>

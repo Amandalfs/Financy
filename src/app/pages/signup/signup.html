@@ -1,0 +1,31 @@
+<main class="main flex flex-col mt-12 items-center gap-8">
+    <img src="/Logo.svg" class="w-33.5 h-8" />
+    <div class="flex flex-col p-8 border border-gray-300 rounded-lg gap-8">
+        <div class="flex flex-col gap-1 items-center">
+            <h1 class="font-bold text-[1.25rem] text-grayscale-800">Criar conta</h1>
+            <h2 class="font-normal text-[1rem] text-grayscale-600">Comece a controlar suas finanças ainda hoje</h2>
+        </div>
+
+        <form class="flex flex-col gap-6" action="">
+            <div class="flex flex-col gap-4">
+                <app-input typeInput="text" Label="Nome Completo" Placeholder="Seu nome completo" Image="/user-round.svg" />
+                <app-input typeInput="text" Label="E-mail" Placeholder="mail@exemplo.com" Image="/mail.svg" />
+                <app-input Placeholder="Digite sua senha" Label="Senha" IsPassword="true" Image="/lock.svg" />
+            </div>
+
+            <app-primary-button Label="Cadastrar" Size="md" />
+
+              <div class="flex justify-around items-center">
+                <div class="w-[40%] h-px bg-gray-300"></div>
+                <h2 class="font-normal text-sm text-grayscale-500">ou</h2>
+                <div class="w-[40%] h-px bg-gray-300"></div>
+            </div>
+
+             <div class="flex flex-col gap-4">
+                <h2 class="text-center text-gray-600 font-normal text-sm">Já tem uma conta?</h2>
+                <app-secondary-button Label="Fazer login" Size="sm" />
+            </div>
+        </form>
+    </div>
+
+</main>
